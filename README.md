@@ -34,7 +34,6 @@ my @text = shuffle 'a'..'z', 'A'..'Z', '0'..'9', qw(! @ # $ % ^ & *);
 $mWindow->after(69, \&animate);
 ```
 
-
 ### TroubleShooting
 
 While working on this project I have came accros some problems while trying to install Tk modul. Doing following seemd to work for me on Linux Ubuntu 22.04.3 LTS. 
@@ -47,10 +46,11 @@ cpan install Tk
 Additionally, it may be necessary to add the appropriate paths (PATH) to ensure the correct recognition of installed modules.
 Program has not been tested on Windows.
 
-
 ## Acknowledgments
 This script utilizes the Tk module for creating graphical user interfaces in Perl.
 The List::Util module is used for shuffling characters.
 
+
 ## Author
 This project was developed by [acet3p](https://github.com/AceTep).
+Link to video example is [here](https://youtu.be/L950dl9gUrs).
